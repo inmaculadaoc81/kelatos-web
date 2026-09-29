@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="HpRepair">
+<path fill="#0868d7" d="M91 86h330c22 0 40 18 40 40v232H51V126c0-22 18-40 40-40Zm0 40v192h330V126H91Z"/>
+<path fill="#0868d7" d="M37 372h438l31 35c12 14 2 35-16 35H22c-18 0-28-21-16-35l31-35Z"/>
+<path fill="#0868d7" d="M329 155a70 70 0 0 0-82 90L157 335a25 25 0 0 0 35 35l90-90a70 70 0 0 0 90-82l-44 44-39-10-10-39 50-38Z"/>
+<path fill="#fff" d="M222 397h68l10 14h-88l10-14Z"/>
+</svg>
