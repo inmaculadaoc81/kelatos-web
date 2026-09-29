@@ -168,3 +168,13 @@ header{background:#fff}.links a:hover{color:var(--hp-blue)}
 .social{width:66px;height:44px;border-radius:4px;color:#fff!important;display:grid;place-items:center;text-decoration:none;font:bold 22px/1 Arial,sans-serif}
 .fb{background:#1877f2}.ig{background:#c0006f}.yt{background:#c92511}.tt{background:#050505}.li{background:#0a66c2}.xx{background:#050505}.sc{background:#f5a623;color:#111!important}
 @media(max-width:700px){.social-row{flex-direction:column;align-items:flex-start}.social-icons{justify-content:flex-start}.social{width:52px;height:42px}.brand-logo,.kelatos-full-logo{height:42px!important;max-width:180px!important}}
+
+/* Identidad visual Kelatos */
+.hero{background:linear-gradient(135deg,#202b86 0%,#16236f 58%,#16713a 125%)!important}
+.hero:before{background:radial-gradient(circle at 18% 22%,rgba(57,181,74,.32),transparent 32%)!important}
+.hero h1{font-size:clamp(38px,4.2vw,66px)!important;line-height:1.03!important;letter-spacing:-1.8px!important}
+.hero h1 em,.title em,.seo-title em,.trust-title em,.art-title em{font-family:Georgia,"Times New Roman",serif!important;font-style:italic!important;font-weight:700!important;color:#39b54a!important}
+.kelatos-brand{display:inline-flex;align-items:center;gap:9px;color:#202b86;font-family:Arial,sans-serif;font-size:27px;font-weight:900;letter-spacing:-1px;white-space:nowrap}
+.kelatos-symbol{display:grid;place-items:center;width:48px;height:38px;border:4px solid #39b54a;border-radius:8px;color:#202b86;font-size:28px;line-height:1;transform:skewY(-5deg)}
+footer .kelatos-brand{color:#fff}
+@media(max-width:700px){.hero h1{font-size:clamp(34px,10vw,48px)!important}.kelatos-brand{font-size:21px}.kelatos-symbol{width:40px;height:32px;font-size:23px}}
