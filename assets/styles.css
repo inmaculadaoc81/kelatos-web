@@ -178,3 +178,20 @@ header{background:#fff}.links a:hover{color:var(--hp-blue)}
 .kelatos-symbol{display:grid;place-items:center;width:48px;height:38px;border:4px solid #39b54a;border-radius:8px;color:#202b86;font-size:28px;line-height:1;transform:skewY(-5deg)}
 footer .kelatos-brand{color:#fff}
 @media(max-width:700px){.hero h1{font-size:clamp(34px,10vw,48px)!important}.kelatos-brand{font-size:21px}.kelatos-symbol{width:40px;height:32px;font-size:23px}}
+
+/* Iconos SVG unificados + H1 reducido */
+.row-icon,.benefit-icon,.card-icon,.service-icon{display:flex!important;align-items:center!important;justify-content:center!important;line-height:0!important;padding:0!important;background:linear-gradient(135deg,#2a37a8,#202b86)!important;box-shadow:0 6px 16px rgba(32,43,134,.22),inset 0 1px 0 rgba(255,255,255,.18);transition:transform .2s ease}
+.row-icon{width:36px;height:36px;border-radius:10px}
+.benefit-icon,.card-icon,.service-icon{width:46px;height:46px;border-radius:13px}
+.row-icon svg,.benefit-icon svg,.card-icon svg,.service-icon svg{display:block;width:22px;height:22px;margin:0!important;fill:none!important;stroke:#fff!important;stroke-width:1.75;stroke-linecap:round;stroke-linejoin:round}
+.row-icon svg{width:19px;height:19px}
+.row-icon svg *{fill:none!important;stroke:#fff!important}
+.services .service-icon{background:linear-gradient(135deg,#39b54a,#1f8f3a)!important;box-shadow:0 6px 18px rgba(57,181,74,.28),inset 0 1px 0 rgba(255,255,255,.2)}
+.problem:hover .card-icon,.service:hover .service-icon,.benefit:hover .benefit-icon{transform:translateY(-2px) scale(1.05)}
+.social{display:flex!important;align-items:center;justify-content:center;border-radius:10px!important;transition:transform .2s ease,filter .2s ease}
+.social svg{width:22px;height:22px;fill:currentColor}
+.social:hover{transform:translateY(-2px);filter:brightness(.88)}
+.ig{background:radial-gradient(circle at 30% 107%,#fdf497 0%,#fd5949 45%,#d6249f 60%,#285aeb 90%)!important}
+.sc{background:#fffc00!important}.sc svg{fill:#fff;stroke:#111;stroke-width:1.2}
+.hero h1{font-size:clamp(23px,2.52vw,40px)!important;letter-spacing:-1px!important}
+@media(max-width:700px){.hero h1{font-size:clamp(20px,6vw,29px)!important}.benefit-icon{width:38px;height:38px}.card-icon,.service-icon{width:42px;height:42px}}
