@@ -149,3 +149,22 @@ header{background:#fff}.links a:hover{color:var(--hp-blue)}
 
 /* Mostrar correctamente el isotipo HpRepair */
 .brand-logo,.footer-brand .brand-logo{width:52px!important;height:52px!important;object-fit:contain!important;border-radius:0!important;display:block!important;flex:none!important}
+
+/* Kelatos Informática */
+:root{--kelatos-blue:#202b86;--kelatos-green:#39b54a;--kelatos-light:#f4f8fb;--kelatos-red:#ff1015}
+.hero{background:#0e1d63!important;background-image:radial-gradient(circle at 18% 18%,rgba(57,181,74,.26),transparent 28%),linear-gradient(145deg,#202b86 0%,#14206c 48%,#07102f 100%)!important}
+.hero .eyebrow,.navcall,.maplink,.benefit-icon,.card-icon,.service-icon,.tag,.tick i,.submit{background:var(--kelatos-blue)!important}
+.links a:hover,.kicker,.info .kicker,.seo-title em,.title em,.center-kicker,.trust-title em{color:var(--kelatos-blue)!important}
+.seo-title,.problem,.service,.info{border-color:var(--kelatos-blue)!important}
+.art{background:linear-gradient(135deg,var(--kelatos-blue),#111a54)!important}
+.brand-logo{width:auto!important;height:52px!important;max-width:220px!important}
+.kelatos-full-logo{height:48px!important;max-width:210px!important}
+.youtube-card{background:var(--kelatos-red)!important}
+.reviews-card{background:#0c56b7!important}
+.social-section{background:#f3f5f7;padding:52px 0}
+.social-row{display:flex;align-items:center;justify-content:space-between;gap:38px}
+.social-row h2{font-family:var(--display);font-size:34px;font-weight:500;color:#2869df;margin:0}
+.social-icons{display:flex;flex-wrap:wrap;gap:16px;justify-content:flex-end}
+.social{width:66px;height:44px;border-radius:4px;color:#fff!important;display:grid;place-items:center;text-decoration:none;font:bold 22px/1 Arial,sans-serif}
+.fb{background:#1877f2}.ig{background:#c0006f}.yt{background:#c92511}.tt{background:#050505}.li{background:#0a66c2}.xx{background:#050505}.sc{background:#f5a623;color:#111!important}
+@media(max-width:700px){.social-row{flex-direction:column;align-items:flex-start}.social-icons{justify-content:flex-start}.social{width:52px;height:42px}.brand-logo,.kelatos-full-logo{height:42px!important;max-width:180px!important}}

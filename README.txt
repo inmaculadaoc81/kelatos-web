@@ -1,9 +1,13 @@
-HpRepair | Servicio Técnico ordenadores y portátiles HP
+Kelatos Informática
 
-Sitio web de HpRepair, servicio técnico independiente especializado en diagnóstico y reparación de ordenadores y portátiles HP.
+Sitio web corporativo de Kelatos Informática.
 
-Web: https://tecnicopcvalladolid.es/
-Teléfono: +34 918 29 46 54
+Servicios principales:
+- Recuperación de datos.
+- Servicio técnico de ordenadores.
+- Desarrollo de software a medida.
+- Automatización e integración de sistemas.
+
+Web: https://kelatos.com/
+Teléfono: +34 918 29 46 60
 WhatsApp: +34 649 97 01 28
-
-Diagnóstico gratuito en taller. Presupuesto previo a la reparación.
