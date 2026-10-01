@@ -193,10 +193,70 @@ footer .kelatos-brand{color:#fff}
 .social:hover{transform:translateY(-2px);filter:brightness(.88)}
 .ig{background:radial-gradient(circle at 30% 107%,#fdf497 0%,#fd5949 45%,#d6249f 60%,#285aeb 90%)!important}
 .sc{background:#fffc00!important}.sc svg{fill:#fff;stroke:#111;stroke-width:1.2}
-.hero h1{font-size:clamp(23px,2.52vw,40px)!important;letter-spacing:-1px!important}
-@media(max-width:700px){.hero h1{font-size:clamp(20px,6vw,29px)!important}.benefit-icon{width:38px;height:38px}.card-icon,.service-icon{width:42px;height:42px}}
+.hero h1{font-size:clamp(30px,3.28vw,52px)!important;letter-spacing:-1px!important}
+@media(max-width:700px){.hero h1{font-size:clamp(26px,7.8vw,38px)!important}.benefit-icon{width:38px;height:38px}.card-icon,.service-icon{width:42px;height:42px}}
 
 /* Logo e icono Kelatos (webp) */
 .brand img.kelatos-logo{width:auto!important;height:48px!important;max-width:none!important;display:block}
 .footer-brand img.kelatos-icon{width:auto!important;height:44px!important;display:block;background:#fff;padding:5px 6px;border-radius:11px;box-sizing:border-box}
 @media(max-width:700px){.brand img.kelatos-logo{height:40px!important}.footer-brand img.kelatos-icon{height:32px!important}}
+
+/* Iconos en botones hero + 3er botón azul claro + fila Referencia */
+.hero .cta{gap:10px}
+.cta-ic{width:20px;height:20px;flex:none;fill:none;stroke:currentColor;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round}
+.hero .cta.pickup{background:#2f80ed!important;border-color:#2f80ed!important;color:#fff!important}
+.hero .cta.pickup:hover{background:#1c63c7!important;border-color:#1c63c7!important}
+.ref-row .ref-line{display:block;font-size:14px;line-height:1.45;margin-top:2px}
+.ref-row .ref-line strong{font-size:14px}
+.hero h1,.hero h1 em{color:#fff!important}
+.brands-text{max-width:900px;font-size:17px;line-height:1.7;color:#4c4c4c;margin:6px 0 0}.brands-text strong{color:#202b86;font-weight:700}
+.art-title{font-size:clamp(27px,2.8vw,42px)!important}.art-title,.art-title em{color:#fff!important}.art-copy{padding:42px 38px!important}
+.services-seo{max-width:900px;font-size:17px;line-height:1.7;color:#cfd3dc;margin:6px 0 0}.services-seo strong{color:#fff}
+
+/* Sección Recuperación de datos */
+.data-section{background:linear-gradient(180deg,#f3f6fc 0%,#fff 100%)}
+.data-head{display:grid;grid-template-columns:1.05fr .95fr;gap:56px;align-items:end}
+.data-head .title{margin-bottom:0}
+.data-seo{margin:0;font-size:17px;line-height:1.7;color:#4c4c4c}.data-seo strong{color:#202b86}
+.data-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:40px}
+.data-card{display:flex;flex-direction:column;gap:14px;background:#fff;border:1px solid #e1e6f2;border-radius:18px;padding:24px;box-shadow:0 8px 24px rgba(32,43,134,.06);transition:transform .2s ease,box-shadow .2s ease,border-color .2s ease}
+.data-card:hover{transform:translateY(-3px);box-shadow:0 16px 34px rgba(32,43,134,.12);border-color:#b9c3ea}
+.data-icon{width:46px;height:46px;border-radius:13px;display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg,#2a37a8,#202b86);box-shadow:0 6px 16px rgba(32,43,134,.22),inset 0 1px 0 rgba(255,255,255,.18);transition:transform .2s ease}
+.data-card:hover .data-icon{transform:translateY(-2px) scale(1.05)}
+.data-icon svg{width:22px;height:22px;fill:none;stroke:#fff;stroke-width:1.75;stroke-linecap:round;stroke-linejoin:round}
+.data-card h3{font-family:var(--display);font-size:17px;line-height:1.3;margin:0 0 6px}
+.data-card p{margin:0;color:#4c4c4c;font-size:15px}
+.data-cta{margin-top:28px;display:flex;align-items:center;justify-content:space-between;gap:24px;background:#202b86;color:#fff;border-radius:20px;padding:22px 28px}
+.data-cta ul{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:12px 28px;font-weight:700}
+.data-cta li{display:flex;align-items:center;gap:8px}
+.data-cta li svg{width:20px;height:20px;fill:none;stroke:#39b54a;stroke-width:2.6;stroke-linecap:round;stroke-linejoin:round}
+.data-cta-btn{display:inline-flex;align-items:center;gap:10px;background:#128c3e;color:#fff!important;font-weight:800;padding:14px 22px;border-radius:999px;white-space:nowrap;transition:background-color .2s ease}
+.data-cta-btn:hover{background:#0b6f30}
+.data-cta-btn svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round}
+@media(max-width:1020px){.data-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:920px){.data-head{grid-template-columns:1fr;gap:18px}.data-cta{flex-direction:column;align-items:flex-start}}
+@media(max-width:600px){.data-grid{grid-template-columns:1fr}.data-cta-btn{width:100%;justify-content:center;white-space:normal}}
+.free-diag{display:flex;align-items:center;gap:12px;max-width:900px;margin:18px 0 0;padding:14px 18px;background:#eaf7ec;border:1px solid #bfe5c5;border-radius:14px;color:#1d4d27;font-size:16px;line-height:1.5}.free-diag strong{color:#1f8f3a}.free-diag svg{width:24px;height:24px;flex:none;fill:none;stroke:#1f8f3a;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round}
+
+/* Pie de página */
+footer{padding:0!important;background:#0d1240!important;color:#cfd3e6}
+.ft-grid{display:grid;grid-template-columns:1.4fr 1fr 1.2fr;gap:48px;padding:60px 0 44px}
+.ft-brand{display:inline-flex;align-items:center;gap:12px;color:#fff!important;font-family:var(--display);font-weight:800;font-size:21px}
+.ft-brand img.kelatos-icon{width:auto!important;height:46px!important;display:block;background:#fff;padding:5px 6px;border-radius:12px;box-sizing:border-box}
+.ft-about p{margin:16px 0 20px;font-size:15px;line-height:1.65;max-width:380px}
+.ft-col h3{font-family:var(--display);font-size:15px;letter-spacing:1px;text-transform:uppercase;color:#fff;margin:6px 0 16px}
+.ft-col ul{list-style:none;margin:0;padding:0;display:grid;gap:10px;font-size:15px}
+.ft-col a{color:#cfd3e6;transition:color .2s ease}.ft-col a:hover{color:#39b54a}
+.ft-contact li{display:flex;gap:10px;align-items:flex-start;line-height:1.5}
+.ft-contact svg{width:18px;height:18px;flex:none;margin-top:2px;fill:none;stroke:#39b54a;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.ft-socials{display:flex;flex-wrap:wrap;gap:10px}
+.ft-social{width:38px;height:38px;border-radius:10px;display:flex;align-items:center;justify-content:center;background:rgba(255,255,255,.08);color:#fff!important;transition:background-color .2s ease,transform .2s ease}
+.ft-social svg{width:18px;height:18px;fill:currentColor}
+.ft-social:hover{background:#39b54a;transform:translateY(-2px)}
+.ft-bottom{border-top:1px solid rgba(255,255,255,.1);font-size:13px}
+.ft-bottom-row{display:flex;justify-content:space-between;align-items:center;gap:16px;padding:18px 0}
+.ft-bottom nav{display:flex;gap:22px}.ft-bottom a{color:#cfd3e6}.ft-bottom a:hover{color:#fff}
+@media(max-width:920px){.ft-grid{grid-template-columns:1fr 1fr}.ft-about{grid-column:1/-1}}
+@media(max-width:600px){.ft-grid{grid-template-columns:1fr;gap:32px;padding:44px 0 32px}.ft-bottom-row{flex-direction:column;align-items:flex-start;padding-bottom:96px}}
+.ft-social.fb,.ft-social.ig,.ft-social.yt,.ft-social.tt,.ft-social.li,.ft-social.xx,.ft-social.sc{background:rgba(255,255,255,.08)!important;color:#fff!important}.ft-social.sc svg{fill:#fff;stroke:none}
+.ft-social.fb:hover,.ft-social.ig:hover,.ft-social.yt:hover,.ft-social.tt:hover,.ft-social.li:hover,.ft-social.xx:hover,.ft-social.sc:hover{background:#39b54a!important}
