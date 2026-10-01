@@ -309,3 +309,16 @@ svg.wa-ic{fill:currentColor!important;stroke:none!important}
 .links a{white-space:nowrap}
 @media(max-width:1100px){.links{display:none!important}.menu-btn{display:block!important}}
 #proceso .art-copy .kicker{display:inline-block;background:#fff!important;color:#202b86!important;padding:7px 14px;border-radius:999px;box-shadow:0 4px 12px rgba(0,0,0,.18)}
+/* Hero móvil: etiqueta y H1 centrados */
+@media(max-width:700px){.hero-main{text-align:center}.hero .eyebrow{display:inline-block}.hero h1{margin-left:auto;margin-right:auto}}
+.free-box{border-top:0!important;padding-top:0!important;margin-top:16px}
+/* Menos espacio alrededor de la caja gris */
+section.seo-section{padding:8px 0 0!important}
+section.problem-section{padding-top:56px!important}
+@media(max-width:600px){section.seo-section{padding-top:4px!important}section.problem-section{padding-top:44px!important}}
+/* Recuperación de datos: 2 columnas en móvil */
+@media(max-width:600px){.data-grid{grid-template-columns:repeat(2,1fr)!important;gap:10px!important}.data-card{padding:14px;gap:10px;border-radius:15px}.data-icon{width:36px;height:36px;border-radius:11px}.data-icon svg{width:18px;height:18px}.data-card h3{font-size:14.5px;margin-bottom:5px}.data-card p{font-size:12.5px;line-height:1.45}}
+/* Menos espacio entre Recuperación de datos y Cómo trabajamos */
+section.data-section{padding-bottom:40px!important}
+section#proceso{padding-top:40px!important}
+@media(max-width:600px){section.data-section{padding-bottom:32px!important}section#proceso{padding-top:32px!important}}
