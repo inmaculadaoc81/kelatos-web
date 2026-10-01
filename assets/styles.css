@@ -260,3 +260,52 @@ footer{padding:0!important;background:#0d1240!important;color:#cfd3e6}
 @media(max-width:600px){.ft-grid{grid-template-columns:1fr;gap:32px;padding:44px 0 32px}.ft-bottom-row{flex-direction:column;align-items:flex-start;padding-bottom:96px}}
 .ft-social.fb,.ft-social.ig,.ft-social.yt,.ft-social.tt,.ft-social.li,.ft-social.xx,.ft-social.sc{background:rgba(255,255,255,.08)!important;color:#fff!important}.ft-social.sc svg{fill:#fff;stroke:none}
 .ft-social.fb:hover,.ft-social.ig:hover,.ft-social.yt:hover,.ft-social.tt:hover,.ft-social.li:hover,.ft-social.xx:hover,.ft-social.sc:hover{background:#39b54a!important}
+
+/* Servicio técnico: intro 2 columnas + 8 servicios en 4/2 columnas */
+.problem-intro{display:grid;grid-template-columns:1.25fr 1fr;gap:28px;align-items:center;margin-top:10px}
+.problem-intro .brands-text,.problem-intro .free-diag{margin:0}
+.problem-intro .free-diag{align-self:stretch;padding:20px 22px}
+.problem-section .problem-grid{grid-template-columns:repeat(4,1fr)!important;gap:16px}
+.problem-section .problem{padding:22px;min-height:0}
+.problem-section .problem h3{font-size:17px;line-height:1.3}
+.problem-section .problem p{font-size:15px}
+@media(max-width:920px){.problem-intro{grid-template-columns:1fr;gap:18px}.problem-section .problem-grid{grid-template-columns:repeat(2,1fr)!important}}
+@media(max-width:600px){.problem-section .problem-grid{gap:10px}.problem-section .problem{padding:14px;border-radius:15px}.problem-section .problem h3{font-size:14.5px;margin:10px 0 5px}.problem-section .problem p{font-size:12.5px;line-height:1.45}.problem-section .card-icon{width:36px;height:36px}.problem-section .card-icon svg{width:18px;height:18px}}
+
+/* WhatsApp: icono oficial relleno */
+svg.wa-ic{fill:currentColor!important;stroke:none!important}
+.float-wa svg.wa-ic{width:30px!important;height:30px!important}
+.ft-contact svg.wa-ic{fill:#39b54a!important}
+/* Barra CTA recuperación de datos */
+.data-cta{display:grid!important;grid-template-columns:1fr auto;gap:28px;align-items:center;padding:24px 28px!important;background:linear-gradient(135deg,#25319a,#1a2370)!important;box-shadow:0 18px 40px rgba(32,43,134,.22)}
+.data-cta ul{display:grid!important;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px!important}
+.data-cta li{display:flex;align-items:center;gap:12px!important}
+.data-cta li strong{display:block;font-size:15px;line-height:1.3;color:#fff}
+.data-cta li small{display:block;font-size:13px;font-weight:500;color:#c3c9ee;margin-top:2px}
+.dc-ic{width:40px;height:40px;flex:none;border-radius:12px;background:rgba(57,181,74,.16);border:1px solid rgba(57,181,74,.35);display:flex;align-items:center;justify-content:center}
+.data-cta .dc-ic svg{width:20px!important;height:20px!important;fill:none;stroke:#5fd36f!important;stroke-width:1.9!important}
+.data-cta-btn{padding:15px 24px!important;box-shadow:0 8px 20px rgba(18,140,62,.35)}
+.data-cta-btn svg.wa-ic{width:21px;height:21px}
+@media(max-width:1020px){.data-cta{grid-template-columns:1fr}.data-cta-btn{justify-self:start}}
+@media(max-width:600px){.data-cta ul{grid-template-columns:1fr}.data-cta-btn{justify-self:stretch}}
+
+/* Caja información: aviso gratuito */
+.free-box{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:14px 0 2px;padding-top:14px;border-top:1px solid #eee}
+.free-item{display:flex;align-items:center;gap:10px;padding:12px;border-radius:12px;background:#ecf8ee;border:1px solid #c8ebcd}
+.free-ic{width:34px;height:34px;flex:none;border-radius:10px;background:#39b54a;display:flex;align-items:center;justify-content:center;box-shadow:0 4px 10px rgba(57,181,74,.3)}
+.free-ic svg{width:19px;height:19px;fill:none;stroke:#fff;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.free-item strong{display:block;font-size:14px;line-height:1.25;color:#17602a}
+.free-item small{display:block;font-size:12px;line-height:1.3;color:#3f6b49;margin-top:2px}
+@media(max-width:420px){.free-box{grid-template-columns:1fr}}
+
+/* Bloque "Tecnología que resuelve" en caja gris */
+.seo-section .seo-grid{background:#f3f4f7;border:1px solid #e4e7ee;border-radius:24px;padding:48px 52px;align-items:center}
+@media(max-width:920px){.seo-section .seo-grid{padding:34px 28px}}
+@media(max-width:600px){.seo-section .seo-grid{padding:26px 20px;border-radius:18px}}
+
+/* Menú */
+.navcall{display:inline-flex!important;align-items:center;gap:8px;white-space:nowrap}
+.nav-ic{width:17px;height:17px;fill:none;stroke:currentColor;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round}
+.links a{white-space:nowrap}
+@media(max-width:1100px){.links{display:none!important}.menu-btn{display:block!important}}
+#proceso .art-copy .kicker{display:inline-block;background:#fff!important;color:#202b86!important;padding:7px 14px;border-radius:999px;box-shadow:0 4px 12px rgba(0,0,0,.18)}
