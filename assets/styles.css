@@ -25,6 +25,7 @@ h1 span{font-family:var(--accent);font-style:italic;font-weight:400}
 .wa{background:#128c3e;color:#fff}
 .phone{background:#fff;color:#111}
 .pickup{background:#111;color:#fff;border:2px solid #111}
+.quote{background:#17a398;color:#fff}
 .info{background:#fff;color:#111;border-radius:24px;padding:28px;box-shadow:0 24px 60px #0003;border-top:5px solid #111}
 .info h2{font-family:var(--display);line-height:1.2;font-size:23px;margin:6px 0 8px}
 .row{display:flex;gap:13px;padding:12px 0;border-top:1px solid #eee}
@@ -115,6 +116,7 @@ textarea{min-height:150px}
 .cta.wa:hover{background:#0b6f30;color:#fff}
 .cta.phone:hover{background:#e8e8e8;color:#111}
 .cta.pickup:hover{background:#000;color:#fff}
+.cta.quote:hover{background:#128075;color:#fff}
 .benefit{align-items:center}
 .float-wa svg{display:block;width:32px;height:32px}
 .float-wa:hover{background:#0b6f30;transform:translateY(-2px)}
