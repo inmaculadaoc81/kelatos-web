@@ -1,1 +1,12 @@
-{"name":"kelatos-web","version":"1.0.0","private":true,"engines":{"node":"22.x"},"dependencies":{"nodemailer":"^6.9.16"}}
+{
+  "name": "kelatos-web",
+  "version": "1.0.0",
+  "private": true,
+  "engines": {
+    "node": "22.x"
+  },
+  "dependencies": {
+    "nodemailer": "^6.9.16",
+    "marked": "^15.0.12"
+  }
+}
