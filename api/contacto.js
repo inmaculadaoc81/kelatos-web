@@ -4,7 +4,11 @@ const EMAIL_RE=/^[^\s@"(),:;<>[\]\\]+@[^\s@"(),:;<>[\]\\]+\.[a-z]{2,}$/i;
 module.exports=async(req,res)=>{
  if(req.method!=="POST"){res.setHeader("Allow","POST");return res.status(405).json({ok:false,error:"Método no permitido"})}
  try{
-  const b=req.body||{},nombre=clean(b.nombre,120),email=clean(b.email,180),telefono=clean(b.telefono,60),modelo=clean(b.modelo,160),averia=clean(b.averia,120),mensaje=clean(b.mensaje),privacidad=b.privacidad==="si";
+  const b=req.body||{};
+  if(clean(b.website))return res.status(200).json({ok:true});
+  const ts=Number(b.ts);
+  if(!ts||Date.now()-ts<2000)return res.status(200).json({ok:true});
+  const nombre=clean(b.nombre,120),email=clean(b.email,180),telefono=clean(b.telefono,60),modelo=clean(b.modelo,160),averia=clean(b.averia,120),mensaje=clean(b.mensaje),privacidad=b.privacidad==="si";
   if(!nombre||!email||!telefono||!mensaje)return res.status(400).json({ok:false,error:"Faltan campos obligatorios"});
   if(!EMAIL_RE.test(email))return res.status(400).json({ok:false,error:"El correo electrónico no es válido"});
   if(!privacidad)return res.status(400).json({ok:false,error:"Debes aceptar la política de privacidad"});
