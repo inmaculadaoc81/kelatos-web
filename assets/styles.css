@@ -457,3 +457,10 @@ ol.ticks{list-style:none;padding:0;margin:24px 0 0}
 #n8n-chat .chat-window-toggle:hover,#n8n-chat .chat-window-toggle:active{background:#000!important}
 #n8n-chat .chat-window-toggle:focus{outline:none}
 #n8n-chat .chat-window-toggle:focus-visible{outline:3px solid #39b54a;outline-offset:2px}
+
+/* Casilla legal obligatoria junto al botón de pago de Redsys (requisito Redsys/Getnet) */
+.pickup-legal{display:flex;align-items:flex-start;gap:8px;font-size:12.5px;line-height:1.5;color:rgba(255,255,255,.85);margin:-2px 0 2px;cursor:pointer}
+.pickup-legal input{width:auto;margin:3px 0 0;flex:0 0 auto}
+.pickup-legal a{color:#fff;text-decoration:underline}
+.pickup-legal.legal-error{color:#ffb4b0}
+.pickup-legal.legal-error a{color:#ffb4b0}

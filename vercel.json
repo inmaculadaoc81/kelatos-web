@@ -7,6 +7,10 @@
       "destination": "/privacy-policy.html"
     },
     {
+      "source": "/condiciones-compra-devoluciones/",
+      "destination": "/condiciones-compra-devoluciones.html"
+    },
+    {
       "source": "/blog",
       "destination": "/api/blog"
     },
